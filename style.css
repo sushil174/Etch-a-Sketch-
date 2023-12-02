@@ -1,0 +1,9 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    height: 960px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 10px black solid;
+}
