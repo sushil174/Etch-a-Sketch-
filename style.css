@@ -3,7 +3,7 @@ body{
     flex-direction: row;
     gap: 50px;
 }
-#container {
+#container{
     display: flex;
     flex-direction: row;
     width: 960px;
@@ -12,3 +12,4 @@ body{
     overflow: hidden;
     border: 10px black solid;
 }
+
