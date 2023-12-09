@@ -92,9 +92,10 @@ function hover() {
 function main(r,c) {
     createGrid(r,c);
     hover();
+    borderChange = 0;
+    border2.style.backgroundColor = rgb(106,114,226);
+
 }
-
-
 
 main();
 const button = document.querySelector('button');
@@ -102,7 +103,7 @@ button.addEventListener('click', () => {
     removeGrid();
     let grid = parseInt(prompt("enter the grid"));
     main(grid,grid);
-    check.checked = false;
+    
 });
 
 
