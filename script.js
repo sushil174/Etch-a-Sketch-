@@ -6,7 +6,7 @@ const rainbow2 = document.querySelector('.rainbow2');
 const clear = document.querySelector('.clear');
 
 let change = 0;
-let borderChange = 1;
+let borderChange = 0;
 function rgb(r, g, b){
     return "rgb("+r+","+g+","+b+")";
 }
